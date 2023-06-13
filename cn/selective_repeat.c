@@ -10,7 +10,7 @@ int main()
  while(i<=a)
  {
      printf("Sending packets from %d to %d\n",i,i+w-1);
-     for(p=i;p<w+i;p++)
+     for(p=i;p<w+i&&p<=a;p++)
      {
         printf("Transmitting packet %d\n",p);
      }
